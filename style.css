@@ -10,3 +10,7 @@ canvas {
     display: block;
     width: 1590px;
 }
+
+var canvas = document.getElementById("canvas");
+canvas.width  = window.innerWidth;
+canvas.height = window.innerHeight;
